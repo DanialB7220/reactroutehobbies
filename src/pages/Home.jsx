@@ -16,14 +16,14 @@ const Home = () => {
               </Card.Text>
               <div className="mb-4">
                 <img 
-                  src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop&crop=center" 
+                  src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=350&fit=crop&crop=center" 
                   alt="Welcome to Hobbies" 
                   className="img-fluid rounded shadow"
-                  style={{ maxWidth: '100%', height: 'auto' }}
+                  style={{ maxWidth: '100%', height: 'auto', borderRadius: '15px' }}
                 />
               </div>
               <Card.Text>
-                This is a simple and beginner-friendly React application built with Vite, 
+                This is a simple React application built with Vite, 
                 React Router v6, and React Bootstrap. Navigate through the different sections 
                 to explore my hobbies and learn more about me!
               </Card.Text>

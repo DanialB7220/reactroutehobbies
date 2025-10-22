@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 
 const Hobbies = () => {
@@ -37,40 +37,35 @@ const Hobbies = () => {
   };
 
   return (
-    <Container>
-      <Row>
-        <Col>
-          <h1 className="text-center text-primary mb-5">My Hobbies</h1>
-        </Col>
-      </Row>
-      <Row>
+    <div className="hobbies-container">
+      <h1 className="hobbies-title">My Hobbies</h1>
+      <div className="hobbies-grid">
         {hobbies.map((hobby) => (
-          <Col key={hobby.id} md={6} lg={3} className="mb-4">
-            <Card 
-              className="h-100 shadow-sm hover-card" 
-              style={{ cursor: 'pointer' }}
-              onClick={() => handleHobbyClick(hobby.id)}
-            >
-              <Card.Img 
-                variant="top" 
-                src={hobby.image} 
-                alt={hobby.title}
-                style={{ height: '200px', objectFit: 'cover' }}
-              />
-              <Card.Body className="d-flex flex-column">
-                <Card.Title className="text-center">{hobby.title}</Card.Title>
-                <Card.Text className="text-center text-muted">
-                  {hobby.description}
-                </Card.Text>
-                <div className="mt-auto text-center">
-                  <small className="text-primary">Click to learn more!</small>
-                </div>
-              </Card.Body>
-            </Card>
-          </Col>
+          <Card 
+            key={hobby.id}
+            className="hobby-card" 
+            style={{ cursor: 'pointer' }}
+            onClick={() => handleHobbyClick(hobby.id)}
+          >
+            <Card.Img 
+              variant="top" 
+              src={hobby.image} 
+              alt={hobby.title}
+              className="hobby-image"
+            />
+            <Card.Body className="hobby-card-body">
+              <Card.Title className="hobby-title">{hobby.title}</Card.Title>
+              <Card.Text className="hobby-description">
+                {hobby.description}
+              </Card.Text>
+              <div className="hobby-footer">
+                <small className="text-primary">Click to learn more!</small>
+              </div>
+            </Card.Body>
+          </Card>
         ))}
-      </Row>
-    </Container>
+      </div>
+    </div>
   );
 };
 

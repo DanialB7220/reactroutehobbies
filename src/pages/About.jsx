@@ -50,7 +50,7 @@ const About = () => {
                     <ListGroup.Item><strong>Languages:</strong> JavaScript, TypeScript, Python, Java, SQL, R, C++</ListGroup.Item>
                     <ListGroup.Item><strong>Frameworks:</strong> React, Node.js, Express.js, TensorFlow, LangChain.js</ListGroup.Item>
                     <ListGroup.Item><strong>Databases:</strong> MongoDB, PrismaDB, Pinecone</ListGroup.Item>
-                    <ListGroup.Item><strong>Cloud & Tools:</strong> GCP, Docker, CI/CD, Git, REST APIs</ListGroup.Item>
+                    <ListGroup.Item><strong>Cloud and Tools:</strong> GCP, Docker, CI/CD, Git, REST APIs</ListGroup.Item>
                     <ListGroup.Item><strong>AI/ML:</strong> Machine Learning, Deep Learning, RAG Pipelines</ListGroup.Item>
                   </ListGroup>
                 </Col>
@@ -65,14 +65,14 @@ const About = () => {
                     I have gained valuable experience through multiple software engineering internships:
                   </Card.Text>
                   <ul>
-                    <li><strong>KLYR Media (Software Engineer Intern):</strong> Built ML models using Python, TensorFlow, and scikit-learn. Developed full-stack tools with React, Node.js, and REST APIs, improving efficiency by 40%.</li>
-                    <li><strong>StudyFetch (Software Engineer Intern):</strong> Developed 3 full-stack AI-powered educational tools using MERN stack, serving 5000+ students. Built generative AI tutoring platform with LangChain.js and RAG pipelines.</li>
-                    <li><strong>Total Construction Corporation (Software Engineer Intern):</strong> Delivered full-stack MERN implementations deployed on GCP. Increased client outreach efficiency by 90% through web integrations and automation.</li>
+                    <li><strong>KLYR Media (Software Engineer Intern):</strong> Built ML models using Python, TensorFlow, and scikit learn. Developed full stack tools with React, Node.js, and REST APIs, improving efficiency by 40%.</li>
+                    <li><strong>StudyFetch (Software Engineer Intern):</strong> Developed 3 full stack AI powered educational tools using MERN stack, serving 5000+ students. Built generative AI tutoring platform with LangChain.js and RAG pipelines.</li>
+                    <li><strong>Total Construction Corporation (Software Engineer Intern):</strong> Delivered full stack MERN implementations deployed on GCP. Increased client outreach efficiency by 90% through web integrations and automation.</li>
                   </ul>
                   
                   <h4 className="text-primary mb-3 mt-4">Leadership & Projects</h4>
                   <Card.Text>
-                    I co-founded the Software Engineering Club at Pace University, organizing 10+ technical workshops and increasing engagement by 200%. 
+                    I co founded the Software Engineering Club at Pace University, organizing 10+ technical workshops and increasing engagement by 200%. 
                     My notable projects include SwftT (ticketing platform), Food Recognition AI Model, and All In One GPT (AI SaaS platform).
                   </Card.Text>
                   

@@ -10,50 +10,52 @@ const HobbyDetail = () => {
     ufc: {
       title: 'Watching UFC',
       image: 'https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?w=600&h=400&fit=crop&crop=center',
-      description: 'I love watching UFC fights and mixed martial arts competitions. The combination of different fighting styles, the strategy, and the athleticism of the fighters makes it incredibly exciting to watch.',
+      description: 'I love watching UFC fights. The action is crazy and you never know what will happen.',
       details: [
-        'Follow major UFC events and pay-per-views',
-        'Enjoy analyzing different fighting techniques and strategies',
-        'Appreciate the dedication and training of professional fighters',
-        'Watch both current fights and classic matches from the past'
+        'Watch all the UFC events',
+        'Love seeing different fighting styles',
+        'My top 3 favorite fighters:',
+        '• Khabib Nurmagomedov (29-0) - The Eagle, undefeated champ with amazing wrestling',
+        '• Islam Makhachev (25-1) - Current lightweight champ, Khabib\'s teammate',
+        '• Dustin Poirier (29-8) - The Diamond, always puts on exciting fights'
       ],
-      why: 'UFC combines multiple martial arts disciplines and showcases incredible athleticism and strategy. Each fight is unique and unpredictable, making it thrilling to watch.'
+      why: 'UFC is just awesome. Every fight is different and the fighters are so skilled. It is the best sport to watch.'
     },
     pickleball: {
       title: 'Pickleball',
       image: 'https://media.istockphoto.com/id/2023549916/photo/pickleball-racket-and-ball.jpg?s=612x612&w=0&k=20&c=dntQPaXY22GtnKWZYdcxQsmFkFPrgduman4KjLmbtI8=',
-      description: 'Pickleball is a fun and fast-paced paddle sport that combines elements of tennis, badminton, and ping pong. It\'s easy to learn but challenging to master.',
+      description: 'Pickleball is like tennis but easier and more fun. It is super addictive once you start playing.',
       details: [
-        'Play both singles and doubles matches',
-        'Enjoy the social aspect of the game',
-        'Appreciate the quick reflexes and strategy required',
-        'Love the accessibility for players of all ages and skill levels'
+        'Play singles and doubles',
+        'Great way to meet people',
+        'Quick games and fast action',
+        'Anyone can play, young or old'
       ],
-      why: 'Pickleball is a great way to stay active while having fun. It\'s social, easy to pick up, and provides a great workout without being too physically demanding.'
+      why: 'Pickleball is just fun. You get exercise without even realizing it and the games are always exciting.'
     },
     golf: {
       title: 'Golf',
       image: 'https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=600&h=400&fit=crop&crop=center',
-      description: 'Golf is a precision sport that challenges both physical skill and mental focus. It\'s a great way to enjoy nature while working on technique and strategy.',
+      description: 'Golf is relaxing and frustrating at the same time. One good shot makes you forget all the bad ones.',
       details: [
-        'Play on various courses and enjoy the beautiful landscapes',
-        'Focus on improving swing technique and putting',
-        'Appreciate the mental challenge and concentration required',
-        'Enjoy the social aspect of playing with friends'
+        'Play on different courses',
+        'Try to improve my swing',
+        'Enjoy being outside',
+        'Play with friends'
       ],
-      why: 'Golf is a sport that can be enjoyed for a lifetime. It combines physical skill with mental strategy and provides a peaceful way to spend time outdoors.'
+      why: 'Golf is peaceful and you get to be outside. Plus it is a game you can play your whole life.'
     },
     'table-tennis': {
       title: 'Table Tennis',
       image: 'https://www.paralympic.org/sites/default/files/images/150413103127066_LON_0109_4685.jpg',
-      description: 'Table tennis, also known as ping pong, is a fast-paced indoor sport that requires quick reflexes, precision, and strategic thinking.',
+      description: 'Table tennis is ping pong but more serious. It is super fast and you need quick reflexes.',
       details: [
-        'Play both recreational and competitive matches',
-        'Enjoy the fast-paced nature of the game',
-        'Appreciate the technical skills and spin techniques',
-        'Love the quick rallies and exciting points'
+        'Play for fun and competition',
+        'Love the fast rallies',
+        'Try different spins and shots',
+        'Great indoor sport'
       ],
-      why: 'Table tennis is an excellent way to improve hand-eye coordination and reflexes. It\'s also a great indoor activity that can be played year-round.'
+      why: 'Table tennis is fast and exciting. It helps with hand eye coordination and you can play it inside anytime.'
     }
   };
 
